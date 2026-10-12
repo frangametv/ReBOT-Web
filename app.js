@@ -85,7 +85,7 @@ document.querySelectorAll('[data-event]').forEach(button => button.addEventListe
   document.querySelector('.reward-display').classList.toggle('is-leave', !joined);
   document.querySelector('#reward-caption').textContent = joined ? 'NEW ELIGIBLE INVITE' : 'INVITED MEMBER LEFT';
   document.querySelector('#reward-number').textContent = joined ? '+1,000' : '−900';
-  document.querySelector('#reward-detail').textContent = joined ? 'Reward for an eligible invite.' : 'The reward is removed from the inviter’s balance.';
+  document.querySelector('#reward-detail').textContent = joined ? 'Reward for an eligible invite.' : '900 Cash is removed from the inviter’s balance.';
   document.querySelector('#reward-command').textContent = joined ? '/joinchannel' : '/leavechannel';
 }));
 
